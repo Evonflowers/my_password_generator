@@ -12,7 +12,7 @@ function options(length, charactertype) {
 function writePassword() {
   password = generatePassword();
   var passwordText = document.querySelector("#password");
-  passwordText.value = password;
+  passwordText.value = "This is what is returned to user";
 
 }
 
@@ -34,10 +34,9 @@ function generatePassword() {
   } else {
     console.log("Not so good choices");
   }
-  
-  let typesCount = "Token here";
-  let generatePassword = 'Hello';
-  console.log('typesCount:', typesCount);
+
+  let password = "Test";
+  console.log('Your Final Password is:', password);
 }
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword)

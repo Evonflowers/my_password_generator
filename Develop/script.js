@@ -12,15 +12,32 @@ function options(length, charactertype) {
 function writePassword() {
   password = generatePassword();
   var passwordText = document.querySelector("#password");
-  passwordText.value = "Le'ts give you a random password here";
+  passwordText.value = password;
 
 }
 
 function generatePassword() {
-  let askLength = prompt("How long would you like to make your password? (Choose between 8-16 characters.");
-  let typesCount = "Testing";
+  let askLength = parseInt(prompt("How long would you like to make your password? (Choose between 8-16 characters."));
+  if (askLength < 128 && askLength > 8) {
+    console.log("Perfect, you're between 8-120");
+  } else if (askLength > 128) {
+    console.log("Your number is too high. Make it shorter, it may be easy to forget!");
+  } else if (askLength < 8) {
+    console.log("Your number is too low. We prefer numbres higher than 8 for security purposes."); 
+  } else {
+    console.log("Not a real number");
+  }
+  
+  let askTypes = prompt("What types of characters would you like to choose?")
+  if (askTypes === "lowercase" || askTypes === "uppercase" || askTypes === "numeric" || askTypes === "special characters") {
+    console.log("Good character types")
+  } else {
+    console.log("Not so good choices");
+  }
+  
+  let typesCount = "Token here";
   let generatePassword = 'Hello';
   console.log('typesCount:', typesCount);
 }
 // Add event listener to generate button
-generateBtn.addEventListener("click", writePassword);
+generateBtn.addEventListener("click", writePassword)

@@ -3,7 +3,7 @@ let generateBtn = document.querySelector("#generate");
 let lengthChoices = ["1", "2", "3"];
 let typesChoices =  ["lowercase", "uppercase", "numeric", "special characters"]
 
-// Write password to the #password input
+// Write password to the #password input.
 
 function options(length, charactertype) {
   console.log(Hello)

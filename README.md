@@ -2,7 +2,7 @@
 
 ## Repository
 
-As hackers continue to breach private information, it's important to make your passwords unique and difficult to crack. It's important that you don't use common phrases and public information, such as previous addresses. This password generator will ask you for the desired number of characters, and you can choose to include any of the following:
+As hackers continue to breach private information, it's important to make your passwords unique and difficult to crack. Try not to use common phrases and public information, such as previous addresses or high school mascots. This password generator will create a strong random password for you. We'll need the desired number of characters, and from there you'll be asked if you'd like to include any of the following options:
 
 <ul>
   <li>Numbers</li>

@@ -21,10 +21,10 @@ function generatePassword() {
         let lowerTrue = confirm("Do you want to lowercase letters?");
         let specTrue = confirm("Do you want to special characters?");
 
-        if (numTrue) { possibilities.push(numChoices) };
-        if (upperTrue) { possibilities.push(upperChoices) };
-        if (lowerTrue) { possibilities.push(lowerChoices) };
-        if (specTrue) { possibilities.push(specChoices) };
+        if (numTrue) possibilities.push(numChoices);
+        if (upperTrue) possibilities.push(upperChoices);
+        if (lowerTrue) possibilities.push(lowerChoices);
+        if (specTrue) possibilities.push(specChoices);
 
         let password = "";
 
@@ -38,7 +38,7 @@ function generatePassword() {
           }
         }
         console.log(password, `The password length is ${password.length}`);
-        passwordText.textContent = password;
+        passwordText.value = password;
       }
 }
 // Add event listener to generate button

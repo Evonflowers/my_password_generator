@@ -19,4 +19,4 @@ Click [here](https://floressuarezalvaro.github.io/my_password_generator/) to acc
 
 ## Contributing
 
-The best way to participate in my portfolio is to [submit a bug](https://github.com/floressuarezalvaro/my_password_generator). Additionally, you can review the [source code](https://github.com/floressuarezalvaro/my_password_generator/pulls) changes. Lastly, you can [build from the source itself](https://github.com/floressuarezalvaro/my_password_generator/wiki).
+The best way to participate in my portfolio is to [submit a bug](https://github.com/floressuarezalvaro/my_password_generator/issues). Additionally, you can review the [source code](https://github.com/floressuarezalvaro/my_password_generator/pulls) changes. Lastly, you can [build from the source itself](https://github.com/floressuarezalvaro/my_password_generator/wiki).

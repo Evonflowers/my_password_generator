@@ -15,8 +15,6 @@ Below I'll include a screenshot of what the page looks like, with my newly gener
 
 ![Generated Password 1](./Assets/Password1.png)
 
-Try this link for a video --> https://drive.google.com/file/d/14DwN25I4dnko3LX8Qh8_px_903BRB_wJ/view
-
 Click [here](https://floressuarezalvaro.github.io/my_password_generator/) to access the generator.
 
 ## Contributing
